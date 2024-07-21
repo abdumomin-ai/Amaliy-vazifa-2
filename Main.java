@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        MyTime time = new MyTime(23, 59, 59);
+        MyTime time = new MyTime(00, 00, 00);
         System.out.println( time);
 
         time.nextSecond();
